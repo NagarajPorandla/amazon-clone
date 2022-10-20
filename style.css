@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    width: 100vw;
+    height: 10vh;
+    padding: 0 40px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(196, 255, 255);
+}
+.navbar p{
+    font-size: 2rem;
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+.navbar a{
+    text-decoration: none;
+    color: inherit;
+}
+.main{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login > form{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.login h4{
+    padding: 10px 0;
+    font-weight: 400;
+    font-weight: semibold;
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+}
+input{
+    margin: 10px 0;
+    border-radius: 5px;
+    height: 40px;
+    padding: 5px;
+    width: 100%;
+}
+input:focus{
+    outline-color: rgb(47, 161, 255);
+}
+.loginBtn{
+    background-color: rgb(100, 138, 253);
+    border: none;
+    color: aliceblue;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+/* Shop page */
+
+.mainContainer{
+    width: 100vw;
+    /* background-color: rgb(240, 240, 240); */
+    display: flex;
+    flex-direction: column;
+ 
+}
+.welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(174, 174, 174);
+    padding: 20px;
+    font-weight: 500;
+}
+.welcome span{
+    color: black;
+    
+}
+.items{
+    width: 60vw;
+    /* background-color: blue; */
+    align-self: center;
+}
+.productCard{
+    display: flex;
+    border: 1px solid rgb(218, 218, 218);
+    margin:10px 0;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 2px 2px 3px rgb(225, 225, 225) ;
+}
+.cover{
+    width: 150px;
+}
+.cover > img{
+    width: 60%;
+}
+.details{
+    padding: 0 10px;
+}
+.details p{
+    color: cornflowerblue;
+}
+.addCart{
+    margin-top:10px;
+    border: none;
+    background-color: rgb(255, 208, 88);
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.addCart:hover{
+    background-color: rgb(236, 190, 73);
+}
+.buynow{
+    margin-top:10px;
+    border: none;
+    background-color: rgb(255, 186, 12);
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
